@@ -1,5 +1,7 @@
 package ders05_notations;
 
+import org.junit.Test;
+
 public class deneme {
     /*
      JUnit ile
@@ -14,4 +16,19 @@ public class deneme {
         boylece if-else ile expected ve actual sonuclari karsilastirmamiza gerek kalmaz
      6- JUnit failed olan testlerde actual ve expected datalarin farkini da raporlar
      */
+    @Test
+    public void test01(){
+        System.out.println("test01");
+    }
+
+    @Test
+    public  void test02(){
+        System.out.println("test02");
+    }
+
+    @Test
+    public void test03(){
+        System.out.println("test03");
+    }
 }
+
